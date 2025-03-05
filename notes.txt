@@ -1,0 +1,40 @@
+/*
+//createElement  ==>> Object ==> When we render it to  DOM then it become HTML element
+const parent = React.createElement("div", { class: "parent" },
+    [React.createElement("div", { class: "child" },
+        [React.createElement("h1", { id: "heading" },
+            "This is parent child heading 1"
+        ),
+        React.createElement("h2", { id: "heading2" },
+            "This is parent child heading 2"
+        ),
+        ]
+    ),
+    React.createElement("div", { class: "child2" },
+        React.createElement("h3", { id: "heading3" }, "This is parent child heading 3")
+    )
+    ]
+)
+console.log(parent);
+const root = ReactDOM.createRoot(document.getElementById("root"));
+
+root.render(parent);
+*/
+--------------------------------------------------------
+
+/*
+//This is not pure javascript because our JS Engine does not understand JSX so we need to convert it into pure JS
+//Javascript is the only language that browser understand or javascript is the code that JS Engine understand or JS Engine understand ES6 code
+const heading = <h1 id="heading">TARUN YADAV ☠️🌹</h1> //so JS Engine doesn't understand this piece of code
+console.log(heading);
+//Then why this code working propeerly because we are using Babel to convert this code into pure JS or this code is transpiled before it goes to JS Engine  ==>(transpiled means the code is converted into pure JS that JS Engine understand)
+//When we give JSX behind the scene it will converted into React.createElement() it gives ReactElement which is a JS object then it will be converted into HTML element when we render it to DOM
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(heading);
+//what is functional component ==>> A function that returns a React Element is called a functional component or a function that returns JSX is called a functional component
+
+*/
+--------------------------------------------------------
+hooks ==>> A normal javascript functions which is given by react 
+*whenever State is changes React re-render the component 
+

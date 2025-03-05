@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-icons": "^5.4.0",
+    "react-router-dom": "^7.2.0"
+  },
+  "devDependencies": {
+    "browserslist": "^4.24.4",
+    "caniuse-lite": "^1.0.30001702",
+    "parcel": "^2.13.3",
+    "process": "^0.11.10"
+  }
+}

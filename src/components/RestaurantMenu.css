@@ -1,0 +1,126 @@
+/* Container */
+.menu-container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Restaurant Header */
+.restaurant-header {
+    display: flex;
+    align-items: center;
+    background: #ff5722;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.restaurant-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.restaurant-info h1 {
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+.restaurant-info p {
+    font-size: 16px;
+}
+
+.restaurant-rating {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+/* Menu List */
+.menu-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+/* Menu Item */
+.menu-item {
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+.menu-item-info h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.menu-item-price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff5722;
+}
+
+.add-to-cart {
+    margin-top: 10px;
+    padding: 8px 12px;
+    background: #ff5722;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.add-to-cart:hover {
+    background: #e64a19;
+}
+
+/* Loading Text */
+.loading {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 50px;
+}
+
+.not-found {
+    text-align: center;
+    padding: 50px;
+}
+
+.not-found h2 {
+    font-size: 28px;
+    color: red;
+}
+
+.not-found p {
+    font-size: 18px;
+}
+
+.back-button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #ff5722;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.back-button:hover {
+    background: #e64a19;
+}
