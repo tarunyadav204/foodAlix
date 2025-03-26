@@ -23,7 +23,7 @@ const RestaurantMenu = () => {
     }
 
     //  console.log("ResInfo.....", resInfo);
-    console.log("Menu..........", menu);
+    // console.log("Menu..........", menu);
     const { name, cuisines, cloudinaryImageId, avgRating } = resInfo;
 
 
@@ -44,7 +44,7 @@ const RestaurantMenu = () => {
                 <div className="restaurant-info">
                     <h1>{name}</h1>
                     <p>{cuisines}</p>
-                    <p className="restaurant-rating">⭐ {avgRating} / 5</p>
+                    <p className="restaurant-rating">⭐ {avgRating}</p>
                 </div>
             </div>
 
